@@ -1,7 +1,7 @@
 from src.add import add
 
 def test_addition_happy_path():
-    assert add(3, 2) == 5
+    assert add(4, 2) == 6
 
 def test_addition_negative_values():
     assert add(-3, -2) == -5
